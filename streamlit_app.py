@@ -42,7 +42,7 @@ def ask_question_to_model(question, document):
 # Streamlit 앱 구성
 st.title('PDF 기반 AI 챗봇')
 
-pdf_url = "https://github.com/Jihotech16/t.e._AI_teacher/raw/main/%EC%A4%91_%EA%B8%B0%EC%88%A0%EA%B0%80%EC%A0%95%E2%91%A0(%EC%B5%9C%EC%9C%A0%ED%98%84)_%EA%B5%90%EA%B3%BC%EC%84%9C%20%EB%B3%B8%EB%AC%B8(pdf).pdf"
+pdf_url = "https://github.com/Jihotech16/AI_teacher/raw/main/%EC%A4%91_%EA%B8%B0%EC%88%A0%EA%B0%80%EC%A0%95%E2%91%A0(%EC%B5%9C%EC%9C%A0%ED%98%84)_%EA%B5%90%EA%B3%BC%EC%84%9C%20%EB%B3%B8%EB%AC%B8(pdf).pdf"
 question = st.text_input('질문을 입력하세요:', '')
 
 if st.button('답변 생성'):
